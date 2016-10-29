@@ -169,7 +169,7 @@ bash Autokick-debian.sh
 
 # Install Menu for OpenVPN
 cd
-wget https://raw.githubusercontent.com/muchigo/VPS/master/conf/menu
+wget https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/menu
 mv ./menu /usr/local/bin/menu
 chmod +x /usr/local/bin/menu
 
