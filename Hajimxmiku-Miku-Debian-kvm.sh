@@ -60,7 +60,7 @@ echo "screenfetch" >> .profile
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/muchigo/VPS/master/conf/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/nginx.conf"
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Kiellez</pre>" > /home/vps/public_html/index.html
 echo "<?php phpinfo(); ?>" > /home/vps/public_html/info.php
