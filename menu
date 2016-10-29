@@ -12,6 +12,15 @@ function create_user() {
 	sed -i $myip2 /tmp/client.ovpn
 	echo ""
 	echo "Terbaik Bos! Berjaya"
+        echo"info:"
+        echo"=========account=======
+        echo " Username: print $uname"
+        echo " Pass: print $pass"
+        echo "Expired date: print $expdate
+        echo"========server========="
+        echo " Host: $MYIP"
+        echo " Port: 443"
+        echo "======================"
 }
 
 function renew_user() {
