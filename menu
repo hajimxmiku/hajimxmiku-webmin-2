@@ -13,7 +13,7 @@ function create_user() {
 	echo ""
 	echo "Terbaik Bos! Berjaya"
         echo "info:"
-        echo "=========account=======
+        echo "=========account======="
         echo " Username: $uname"
         echo " Pass: $pass"
         echo "Expired date: $expdate"
