@@ -1,0 +1,8 @@
+echo -e " \e[31m By running this command,you will installing/updating menu version \e[32m 2.0 by hajimxmiku"
+wget https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/menu
+mv ./menu /usr/local/bin/menu
+chmod +x /usr/local/bin/menu
+echo -e " \e[33m MENU BY HAJIMXMIKU INSTALLED/UPDATED"
+echo -e " \e[34m info:"
+echo -e " Version: \e[32m 2.0"
+""
