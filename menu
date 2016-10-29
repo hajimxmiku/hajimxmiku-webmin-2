@@ -14,9 +14,9 @@ function create_user() {
 	echo "Terbaik Bos! Berjaya"
         echo"info:"
         echo"=========account=======
-        echo " Username: print $uname"
-        echo " Pass: print $pass"
-        echo "Expired date: print $expdate
+        echo " Username: $uname"
+        echo " Pass: $pass"
+        echo "Expired date: $expdate"
         echo"========server========="
         echo " Host: $MYIP"
         echo " Port: 443"
