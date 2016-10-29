@@ -207,4 +207,4 @@ echo ""
 echo "==============================================="
 # REBOOT VPS
 reboot
-echo -e "\e[35m SILA TUNGGU 1-2 MINIT UNTUK VPS ANDA REBOOT
+echo -e "\e[35m SILA TUNGGU 1-2 MINIT UNTUK VPS ANDA REBOOT"
