@@ -64,7 +64,7 @@ wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/hajimxmiku/haji
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Kiellez</pre>" > /home/vps/public_html/index.html
 echo "<?php phpinfo(); ?>" > /home/vps/public_html/info.php
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/nginx.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/vps.conf"
 sed -i 's/listen = \/var\/run\/php5-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php5/fpm/pool.d/www.conf
 service php5-fpm restart
 service nginx restart
