@@ -89,8 +89,6 @@ service openvpn restart
 cd /etc/openvpn/
 wget -O /etc/openvpn/1194-client.ovpn "https://raw.githubusercontent.com/hajimxmiku/hajimxmiku-webmin-2/master/1194-client.conf"
 sed -i $MYIP2 /etc/openvpn/1194-client.ovpn;
-sed -i 's/proto tcp/proto udp/g' /etc/openvpn/1194-client.ovpn
-sed -i 's/1194/6500/g' /etc/openvpn/1194-client.ovpn
 NAME=`uname -n`.`awk '/^domain/ {print $2}' /etc/resolv.conf`;
 mv /etc/openvpn/1194-client.ovpn /etc/openvpn/$NAME.ovpn
 useradd -M -s /bin/false test1
