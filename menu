@@ -11,16 +11,16 @@ function create_user() {
 	sed -i 's/remote xxxxxxxxx 1194/remote xxxxxxxxx 443/g' /tmp/client.ovpn
 	sed -i $myip2 /tmp/client.ovpn
 	echo ""
-	echo "Terbaik!, Account Berjaya Dohasilkan"
+	echo "Terbaik!, Account Berjaya Dihasilkan"
         echo "Generating Receipt :"
-        echo "===========account========="
+        echo "====================account=========================="
         echo " Username: $uname"
         echo " Pass: $pass"
         echo "Expired date: $expdate"
-        echo "==========server==========="
+        echo "====================server=========================="
         echo " Host: $myip"
         echo " Port: 443"
-        echo "======================"
+        echo "==============================================================="
         echo ""
         echo "boleh copy dan diberikam kepada user"
 
