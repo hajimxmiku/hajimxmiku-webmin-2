@@ -3,6 +3,9 @@
 # go to root
 cd
 
+# starting message
+echo -e "\e[32m now will running hajimxmiku12 webmin v2.2"
+
 # disable ipv6
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
